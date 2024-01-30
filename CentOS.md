@@ -80,7 +80,7 @@ Sure, here is the improved Markdown for your GitHub README:
 | Command                                     | Description                                           |
 |---------------------------------------------|-------------------------------------------------------|
 | `ps aux`                                    | List all processes with details such as process ID (PID), CPU usage, memory usage, and more|
-| `ps aux | grep <process_name>`                                    | Show a process with details such as process ID (PID), CPU usage, memory usage, and more|
+| `ps aux &#124; grep <process_name>`                                    | Show a process with details such as process ID (PID), CPU usage, memory usage, and more|
 | `kill <PID>`                                | To Kill the process with the <PID> |
 | `kill -9 <PID>`                             | Forcefully kill the process with <PID> |
 | `netstat -tulpn`                           | Check network connections |

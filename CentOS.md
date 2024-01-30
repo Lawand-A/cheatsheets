@@ -83,9 +83,9 @@ Sure, here is the improved Markdown for your GitHub README:
 | `ps aux \| grep <process_name>`                                    | Show a process with details such as process ID (PID), CPU usage, memory usage, and more|
 | `kill <PID>`                                | To Kill the process with the <PID> |
 | `kill -9 <PID>`                             | Forcefully kill the process with <PID> |
-| `netstat -tulpn`                           | Check network connections |
+| `netstat -tulpn`                           | Check network connections with the <PID> |
 | `sudo rkhunter --check`                   | Rootkit detection to identify any hidden malicious software |
-| `sudo aide --init`                | Aide is used to monitor and report changes to critical system files |
+| `sudo aide --init`                | Init aide. This is used to monitor and report changes to critical system files |
 | `sudo aide --check`                | To run checks |
 | `sudo iptables -L`                | Review firewall rules to make sure that only necessary ports are open |
 

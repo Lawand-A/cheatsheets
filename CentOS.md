@@ -73,3 +73,21 @@ Sure, here is the improved Markdown for your GitHub README:
 | `su - <username>`                           | Change the user                                       |
 | `sudo userdel <username>`                   | Delete a user                                         |
 | `sudo userdel -r <username>`                | Delete a user and all their files in the home directory |
+
+
+## Security and processes
+
+| Command                                     | Description                                           |
+|---------------------------------------------|-------------------------------------------------------|
+| `ps aux`                                    | List all processes with details such as process ID (PID), CPU usage, memory usage, and more|
+| `ps aux | grep <process_name>`                                    | Show a process with details such as process ID (PID), CPU usage, memory usage, and more|
+| `kill <PID>`                                | To Kill the process with the <PID> |
+| `kill -9 <PID>`                             | Forcefully kill the process with <PID> |
+| `netstat -tulpn`                           | Check network connections |
+| `sudo rkhunter --check`                   | Rootkit detection to identify any hidden malicious software |
+| `sudo aide --init`                | Aide is used to monitor and report changes to critical system files |
+| `sudo aide --check`                | To run checks |
+| `sudo iptables -L`                | Review firewall rules to make sure that only necessary ports are open |
+
+
+
